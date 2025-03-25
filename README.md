@@ -9,6 +9,8 @@
 - **Dark & Light Mode Support** – Seamlessly adapts to your viewing preference.  
 - **Easy Installation** – Simple setup with no extra dependencies.  
 
+## Preview
+
 ## Installation
 
 ### Prerequisites
