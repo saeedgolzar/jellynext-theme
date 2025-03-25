@@ -15,7 +15,7 @@
 
 ### Prerequisites
 
-- A working [Jellyfin server](https://jellyfin.org/).
+A working [Jellyfin server](https://jellyfin.org/).
 
 ### Steps
 
@@ -79,7 +79,7 @@ JellyNext is licensed under the **MIT License**. This allows for free use, modif
 
 ## Acknowledgements
 
-- Thanks to [Jellyfin](https://jellyfin.org/) for providing an amazing open-source media server.
+Thanks to [Jellyfin](https://jellyfin.org/) for providing an amazing open-source media server.
 
 ## Contact
 
