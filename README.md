@@ -1,2 +1,2 @@
 # JellyNext Theme
-A modern, minimal lightweight Jellyfin theme
+A minimal, modern and lightweight Jellyfin theme
