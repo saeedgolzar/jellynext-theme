@@ -63,7 +63,6 @@ JellyNext is licensed under the **MIT License**. This allows for free use, modif
 ## Acknowledgements
 
 - Thanks to [Jellyfin](https://jellyfin.org/) for providing an amazing open-source media server.
-- All contributors who help improve JellyNext!
 
 ## Contact
 
