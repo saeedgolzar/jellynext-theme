@@ -4,10 +4,10 @@
 
 ## Features
 
-- 🖌 **Minimal & Modern Design** – A clean, fresh look for Jellyfin.  
-- ⚡ **Lightweight & Fast** – Optimized for smooth performance without unnecessary bloat.  
-- 🌙 **Dark & Light Mode Support** – Seamlessly adapts to your viewing preference.  
-- 🛠 **Easy Installation** – Simple setup with no extra dependencies.  
+- **Minimal & Modern Design** – A clean, fresh look for Jellyfin.  
+- **Lightweight & Fast** – Optimized for smooth performance without unnecessary bloat.  
+- **Dark & Light Mode Support** – Seamlessly adapts to your viewing preference.  
+- **Easy Installation** – Simple setup with no extra dependencies.  
 
 ## Installation
 
@@ -17,17 +17,32 @@
 
 ### Steps
 
-1. **Download JellyNext**  
-   - Clone the repository:
-     ```bash
-     git clone https://github.com/yourusername/JellyNext.git
-     ```
-   - Or download the latest release manually.
+<b>Paste the following in Custom CSS code box:</b>
 
-2. **Apply the Theme**  
-   - Log in to your Jellyfin dashboard.  
-   - Navigate to **Settings > Appearance**.  
-   - Select **JellyNext** from the theme options and apply changes.  
+	@import url("style.css");
+
+<details>
+  <summary><i>Detailed steps for server-side implementation</i></summary>
+
+1. Open Dashboard from Administration tab in Settings.
+2. Select General tab from the side bar.
+3. Scroll down to find Custom CSS code box under Branding section.
+4. Paste the custom css in Custom CSS code box.
+5. Click save
+</details>
+
+<details>
+  <summary><i>Detailed steps for client-side implementation</i></summary>
+
+1. Open Display tab in Settings.
+2. Scroll down to find Custom CSS code box.
+3. Paste the custom css in Custom CSS code box.
+4. Click save.
+</details>
+
+
+<hr>
+
 
 ## Customization
 
