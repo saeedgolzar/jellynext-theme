@@ -21,7 +21,7 @@ A working [Jellyfin server](https://jellyfin.org/).
 
 <b>Paste the following in Custom CSS code box:</b>
 
-	@import url("style.css");
+	@import url("https://jellynext.pages.dev/theme/jellynext.css");
 
 <details>
   <summary><i>Detailed steps for server-side implementation</i></summary>
@@ -46,13 +46,11 @@ A working [Jellyfin server](https://jellyfin.org/).
 <hr>
 
 
-## Customization
+## Roudmap
 
-JellyNext allows for further customization via CSS:
-
-- Locate the theme files in the `/theme` directory.
-- Modify the `custom.css` file to tweak styles.
-- Reload Jellyfin to apply changes.
+- [x] Initial release
+- [ ] Add more customization options
+- [ ] Add more themes
 
 ## Contributing
 
