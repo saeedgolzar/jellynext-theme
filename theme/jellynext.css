@@ -15,7 +15,24 @@
     --list-margin: 0;
 }
 
+@media (prefers-color-scheme: light) {
+    :root {
+        --object-background-color: #f5f5f5;
+        --border-color: #9f8e9d;
 
+        --accent-color: #9e22d8;
+        --main-color: black;
+
+        --background: linear-gradient(0, white 0%, #f5f5f5 100%);
+        --text-gradient: linear-gradient(to right, var(--main-color) 0%, var(--accent-color) 100%);
+
+        --transition-duration: 100ms;
+        --border-width: 0.1rem;
+        --border-radius: 1rem;
+
+        --list-margin: 0;
+    }
+}
 
 /* Main pages */
 .backgroundContainer {
