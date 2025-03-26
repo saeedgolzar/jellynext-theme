@@ -1,4 +1,4 @@
-# JellyNext Theme
+# JellyNext (Under Development)
 
 **JellyNext** is a **lightweight, minimal, and modern theme** for [Jellyfin](https://jellyfin.org/).
 
