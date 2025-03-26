@@ -48,7 +48,7 @@ A working [Jellyfin server](https://jellyfin.org/).
 
 ## Roudmap
 
-- [x] Initial release
+- [ ] Initial release
 - [ ] Add more customization options
 - [ ] Add more themes
 
