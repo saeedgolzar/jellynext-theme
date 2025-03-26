@@ -9,6 +9,12 @@
 - **Dark & Light Mode Support** – Seamlessly adapts to your viewing preference.  
 - **Easy Installation** – Simple setup with no extra dependencies.  
 
+## Roudmap
+
+- [ ] Initial release
+- [ ] Add more customization options
+- [ ] Add more themes
+
 ## Preview
 
 ## Installation
@@ -44,13 +50,6 @@ A working [Jellyfin server](https://jellyfin.org/).
 
 
 <hr>
-
-
-## Roudmap
-
-- [ ] Initial release
-- [ ] Add more customization options
-- [ ] Add more themes
 
 ## Contributing
 
