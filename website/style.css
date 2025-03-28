@@ -1,0 +1,150 @@
+:root {
+    --primary-color: #00a4dc;
+    --secondary-color: #aa5cc3;
+    --background-color: #fff;
+    --text-color: #333;
+    --code-color: #2b2b2b;
+    --subtitle-color: #414141;
+    --linkbox-color: #f1f1f1;
+    --border-color: #b1b1b1;
+    --border-radius: 8px;
+    --font-family: 'Inter', -apple-system, sans-serif;
+    --code-font-family: 'Roboto Mono', monospace;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #00a4dc;
+        --secondary-color: #aa5cc3;
+        --background-color: #000;
+        --text-color: #fff;
+        --code-color: #bdbdbd;
+        --subtitle-color: #a7a7a7;
+        --linkbox-color: #111;
+        --border-color: #333;
+    }
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    max-width: 750px;
+    width: 90%;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0.5rem 0;
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: var(--subtitle-color);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.guide {
+    color: var(--subtitle-color);
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.copy-container {
+    margin: 2rem 0;
+}
+
+.copy-box {
+    background: var(--linkbox-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.theme-url {
+    font-family: var(--code-font-family);
+    font-weight: 400;
+    color: var(--code-color);
+    margin-right: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    user-select: all;
+}
+
+.copy-button {
+    background: var(--primary-color);
+    color: var(--background-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    min-width: 80px;
+}
+
+.copy-button:hover {
+    background: var(--secondary-color);
+}
+
+.copy-button.copied {
+    background: #00a4dc;
+}
+
+.github-link {
+    color: var(--subtitle-color);
+    text-decoration: none;
+    margin-top: 1.5rem;
+    display: inline-block;
+    padding: 0.5rem 1rem 0.7rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 7.5px;
+    transition: all 0.3s ease;
+}
+
+.github-link:hover {
+    border-color: var(--primary-color);
+    background: rgba(0, 164, 220, 0.1);
+}
+
+footer {
+    display: block;
+    bottom: 1rem;
+    position: fixed;
+    opacity: 0.9;
+    margin-top: 2rem;
+    font-size: 0.75rem;
+    color: var(--subtitle-color);
+    text-align: center; 
+}
+
+footer a {
+    color: var(--subtitle-color);
+    text-decoration: none;
+}
