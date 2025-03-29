@@ -4,7 +4,7 @@
 </picture>
 <div align="center">
 
-**JellyNext** is a **lightweight, minimal, and modern theme** for [Jellyfin](https://jellyfin.org/).
+A **lightweight, minimal, and modern theme** for [Jellyfin](https://jellyfin.org/).
 
 </div>
 
