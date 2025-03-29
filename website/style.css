@@ -47,6 +47,13 @@ body {
     width: 90%;
 }
 
+.logo {
+    fill: var(--text-color); /* Use the text color for the logo fill */
+    color: var(--text-color); /* Fallback for browsers that do not support fill */
+    height: 5rem; /* Adjust the height as needed */
+    margin: 0.5rem 0;
+}
+
 h1 {
     font-size: 4rem;
     margin: 0.5rem 0;

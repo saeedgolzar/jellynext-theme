@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="favicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .logo {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-1030.55" y1="-421.57" x2="-1052.73" y2="-434.38" gradientTransform="translate(1056.6 -409.42) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8662dd"/>
+      <stop offset=".2" stop-color="#8164dc"/>
+      <stop offset=".7" stop-color="#4382dc"/>
+      <stop offset=".9" stop-color="#1e94dc"/>
+      <stop offset="1" stop-color="#00a4dc"/>
+    </linearGradient>
+  </defs>
+  <g id="favicon-logo">
+    <g>
+      <path id="outer-shape" class="logo" d="M15.99,2.9c-4.26-.12-10.32,12.16-11.83,15.97-1.03,2.83-2.19,6.11.47,8.01,3.64,2.43,12.94,2.17,17.3,1.65,1.88-.26,3.98-.61,5.52-1.7,2.4-1.79,1.54-4.68.61-7.33-1.42-3.88-7.74-16.74-12.06-16.6h-.01ZM24.18,22.8c-1.3,2.18-6.35,2.11-8.98,2.13-2.29-.1-6.34-.18-7.43-2.2-.68-1.39-.03-3.1.49-4.5.97-2.43,4.8-10.22,7.64-10.3,2.23-.09,4.44,3.89,5.61,5.8,1.26,2.33,3.88,6.84,2.67,9.07h0Z"/>
+      <path id="outer-shape1" class="logo" d="M15.99,11.27c-1.89-.06-4.59,5.42-5.27,7.12-.46,1.26-.98,2.73.2,3.57,1.62,1.08,5.77.97,7.71.73.84-.11,1.78-.27,2.46-.75,1.07-.8.69-2.08.27-3.27-.63-1.73-3.45-7.46-5.37-7.4h0Z"/>
+    </g>
+  </g>
+</svg>

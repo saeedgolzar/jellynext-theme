@@ -1,6 +1,12 @@
-# JellyNext (Under Development)
+<picture align="center">
+   <source media="(prefers-color-scheme: dark)" srcset="assets/github-banner-dark.svg">
+   <img alt="github-banner" src="assets/github-banner-light.svg">
+</picture>
+<div align="center">
 
 **JellyNext** is a **lightweight, minimal, and modern theme** for [Jellyfin](https://jellyfin.org/).
+
+</div>
 
 ## Features
 
